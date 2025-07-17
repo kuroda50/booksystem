@@ -1,0 +1,7 @@
+302	Tanaka_Tarou	Introduction_to_Java	2
+205	Yamada	C_Programming	1
+009	Satou_Jirou	Computer	1
+217	Suzuki	Semi_Conductor	1
+305	Tanaka_Tarou	Programming_C++	1
+010	Satou_Jirou	Computer_Architecture	2
+210	Tanaka_Hajime	Java_Programming	1

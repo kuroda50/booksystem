@@ -3,6 +3,7 @@
 #include<string.h>
 #include<ctype.h>
 #include<stdbool.h>
+#include<windows.h>
 
 #define MAX 500
 #define MAXTOKEN 40
@@ -216,6 +217,7 @@ struct CommandHandle retrieve_handles[] = {
 };
 
 int main(int argc, char *argv[]){
+	SetConsoleOutputCP(CP_UTF8);
 	int n, idx;
 	char file[MAX], buff[124], token[MAXTOKEN][MAXSTR];
 	char del = ','; //区切り文字
